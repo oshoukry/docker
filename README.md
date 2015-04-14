@@ -1,4 +1,4 @@
-# docker
+# Small docker container with JRE & Tomcat
 A repository for simplified docker container builds
 
 ### Why?
@@ -13,6 +13,9 @@ The challenge was to build the smallest possible Docker container that includes 
 ### How to build it?
   1. Install docker
   2. Run ./build.sh
+
+If you'd like to customize which JVM or Tomcat to use, or change any of the default startup parameters edit build.sh.<br>
+It is currently set to build with Java JRE 1.8.0_40, Tomcat 8.0.21.
 
 #### Advanced options, JAVA & Tomcat control through environment variables.
 ``` SH
