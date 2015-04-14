@@ -23,13 +23,13 @@ It is currently set to build with Java JRE 1.8.0_40, Tomcat 8.0.21.
   docker run -d -e JVM_MEMORY=2048m tcws
 ```
 ##### Environment Variables
-  1. JVM_MEMORY: default is set to 1024m, but you can over ride with any value you desire.
-  2. TOMCAT_PASS: no default, will be randomly generated and dropped in the console output.
-  2. LISTEN_PORT: default is 8080, this is the port for incoming http traffic to Tomcat.
-  3. SHUTDOWN_PORT: default is 8005.
-  4. JMX_PORT: default is 8050
-  5. AJP_PORT: default is 8009
-  6. REDIRECT_PORT: default is 8443
+  1. **JVM_MEMORY:** default is set to 1024m, but you can over ride with any value you desire.
+  2. **TOMCAT_PASS:** no default, will be randomly generated and dropped in the console output.
+  2. **LISTEN_PORT:** default is 8080, this is the port for incoming http traffic to Tomcat.
+  3. **SHUTDOWN_PORT:** default is 8005.
+  4. **JMX_PORT:** default is 8050
+  5. **AJP_PORT:** default is 8009
+  6. **REDIRECT_PORT:** default is 8443
 
 Here is a sample output from tomcat when it starts - **549 ms startup time!!**
 ```
