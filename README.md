@@ -78,4 +78,3 @@ You can now configure to this Tomcat server using:
 14-Apr-2015 04:04:21.847 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 14-Apr-2015 04:04:21.850 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 44 ms
 ```
-```
