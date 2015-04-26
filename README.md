@@ -3,7 +3,7 @@ A repository for simplified docker container builds
 
 ### Why?
 The challenge was to build the smallest possible Docker container that includes the JRE and Tomcat.
-** There are 3 main components used here **
+#### There are 3 main components used here
   1. progrium/busybox (~5MB)
   2. JRE (~110MB - after trimming)
   3. Tomcat (~9MB - without war files)
